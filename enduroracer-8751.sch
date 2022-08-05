@@ -1,0 +1,255 @@
+EESchema Schematic File Version 4
+LIBS:enduroracer-8751-cache
+EELAYER 29 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "Enduro Racer 8751"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x20_Counter_Clockwise J?
+U 1 1 5D2C7CDC
+P 4550 3600
+F 0 "J?" H 4600 4717 50  0001 C CNN
+F 1 "Conn_02x20_Counter_Clockwise" H 4600 4626 50  0001 C CNN
+F 2 "" H 4550 3600 50  0001 C CNN
+F 3 "~" H 4550 3600 50  0001 C CNN
+	1    4550 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U?
+U 2 1 5D2CC568
+P 3700 3400
+F 0 "U?" H 3700 3717 50  0001 C CNN
+F 1 "74LS04" H 3750 3600 50  0000 C CNN
+F 2 "" H 3700 3400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 3700 3400 50  0001 C CNN
+	2    3700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U?
+U 3 1 5D2CE8FA
+P 3150 3150
+F 0 "U?" H 3150 3467 50  0001 C CNN
+F 1 "74LS04" H 3150 3376 50  0000 C CNN
+F 2 "" H 3150 3150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 3150 3150 50  0001 C CNN
+	3    3150 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U?
+U 1 1 5D2CF2D3
+P 6400 3000
+F 0 "U?" H 6400 3317 50  0001 C CNN
+F 1 "74LS04" H 6400 3250 50  0000 C CNN
+F 2 "" H 6400 3000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 6400 3000 50  0001 C CNN
+	1    6400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U?
+U 4 1 5D2D1F35
+P 6400 3400
+F 0 "U?" H 6400 3717 50  0001 C CNN
+F 1 "74LS04" H 6400 3626 50  0001 C CNN
+F 2 "" H 6400 3400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 6400 3400 50  0001 C CNN
+	4    6400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U?
+U 5 1 5D2D2ADF
+P 6400 3850
+F 0 "U?" H 6400 4167 50  0001 C CNN
+F 1 "74LS04" H 6400 4076 50  0001 C CNN
+F 2 "" H 6400 3850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 6400 3850 50  0001 C CNN
+	5    6400 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U?
+U 6 1 5D2D3C51
+P 6400 4300
+F 0 "U?" H 6400 4617 50  0001 C CNN
+F 1 "74LS04" H 6400 4526 50  0001 C CNN
+F 2 "" H 6400 4300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 6400 4300 50  0001 C CNN
+	6    6400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U?
+U 7 1 5D2D4BB7
+P 7600 3600
+F 0 "U?" H 7830 3646 50  0001 L CNN
+F 1 "74LS04" H 7830 3555 50  0000 L CNN
+F 2 "" H 7600 3600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 7600 3600 50  0001 C CNN
+	7    7600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D2C8AAC
+P 6100 4650
+F 0 "#PWR?" H 6100 4400 50  0001 C CNN
+F 1 "GND" H 6105 4477 50  0000 C CNN
+F 2 "" H 6100 4650 50  0001 C CNN
+F 3 "" H 6100 4650 50  0001 C CNN
+	1    6100 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D2C8FEE
+P 7600 4250
+F 0 "#PWR?" H 7600 4000 50  0001 C CNN
+F 1 "GND" H 7605 4077 50  0000 C CNN
+F 2 "" H 7600 4250 50  0001 C CNN
+F 3 "" H 7600 4250 50  0001 C CNN
+	1    7600 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D2C9E30
+P 4200 4800
+F 0 "#PWR?" H 4200 4550 50  0001 C CNN
+F 1 "GND" H 4205 4627 50  0000 C CNN
+F 2 "" H 4200 4800 50  0001 C CNN
+F 3 "" H 4200 4800 50  0001 C CNN
+	1    4200 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5D2CA7E5
+P 5000 2500
+F 0 "#PWR?" H 5000 2350 50  0001 C CNN
+F 1 "VCC" H 5017 2673 50  0000 C CNN
+F 2 "" H 5000 2500 50  0001 C CNN
+F 3 "" H 5000 2500 50  0001 C CNN
+	1    5000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5D2CACCA
+P 7600 2900
+F 0 "#PWR?" H 7600 2750 50  0001 C CNN
+F 1 "VCC" H 7617 3073 50  0000 C CNN
+F 2 "" H 7600 2900 50  0001 C CNN
+F 3 "" H 7600 2900 50  0001 C CNN
+	1    7600 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5D2D112C
+P 4200 2500
+F 0 "#PWR?" H 4200 2350 50  0001 C CNN
+F 1 "VCC" H 4217 2673 50  0000 C CNN
+F 2 "" H 4200 2500 50  0001 C CNN
+F 3 "" H 4200 2500 50  0001 C CNN
+	1    4200 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2500 4200 2700
+Wire Wire Line
+	4200 2700 4350 2700
+Wire Wire Line
+	4350 2800 4200 2800
+Wire Wire Line
+	4200 2800 4200 2700
+Connection ~ 4200 2700
+Wire Wire Line
+	4350 3100 4200 3100
+Wire Wire Line
+	4200 3100 4200 2800
+Connection ~ 4200 2800
+Wire Wire Line
+	4350 3200 4200 3200
+Wire Wire Line
+	4200 3200 4200 3100
+Connection ~ 4200 3100
+Wire Wire Line
+	4350 3700 4200 3700
+Wire Wire Line
+	4200 3700 4200 3200
+Connection ~ 4200 3200
+Wire Wire Line
+	4350 4200 4200 4200
+Wire Wire Line
+	4200 4200 4200 3700
+Connection ~ 4200 3700
+Wire Wire Line
+	4350 4300 4200 4300
+Wire Wire Line
+	4200 4300 4200 4200
+Connection ~ 4200 4200
+Wire Wire Line
+	4850 2700 5000 2700
+Wire Wire Line
+	5000 2700 5000 2500
+Wire Wire Line
+	6100 3000 6100 3400
+Wire Wire Line
+	6100 3400 6100 3850
+Connection ~ 6100 3400
+Wire Wire Line
+	6100 3850 6100 4300
+Connection ~ 6100 3850
+Wire Wire Line
+	6100 4300 6100 4650
+Connection ~ 6100 4300
+Wire Wire Line
+	7600 4100 7600 4250
+Wire Wire Line
+	7600 2900 7600 3100
+Wire Wire Line
+	3450 3150 3950 3150
+Wire Wire Line
+	3950 3150 3950 3300
+Wire Wire Line
+	3950 3300 4350 3300
+Wire Wire Line
+	4000 3400 4350 3400
+Wire Wire Line
+	2850 3150 2850 3400
+Wire Wire Line
+	2850 3400 3400 3400
+Wire Wire Line
+	4350 3500 3950 3500
+Wire Wire Line
+	3950 3500 3950 3650
+Wire Wire Line
+	3950 3650 2850 3650
+Wire Wire Line
+	2850 3650 2850 3400
+Connection ~ 2850 3400
+Wire Wire Line
+	4350 2900 4300 2900
+Wire Wire Line
+	4300 2900 4300 3800
+Wire Wire Line
+	4300 3800 4350 3800
+Wire Wire Line
+	4350 4600 4200 4600
+Wire Wire Line
+	4200 4600 4200 4800
+$EndSCHEMATC
